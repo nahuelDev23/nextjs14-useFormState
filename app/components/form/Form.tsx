@@ -24,7 +24,7 @@ const Form = () => {
   return (
     <div className="bg-[#50495f] max-w-[300px] p-4 rounded-sm">
       <p className="bg-green-300 rounded-sm mb-4 text-black px-1">
-        {state.message}
+        {state?.message}
       </p>
       <form action={formAction} className="flex flex-col gap-1">
         <input
