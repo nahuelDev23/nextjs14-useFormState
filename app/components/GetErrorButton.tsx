@@ -7,7 +7,9 @@ const GetErrorButton = () => {
     <div>
       <div>
         <form action={getError}>
-          <button type="submit">Generar Error</button>
+          <button className="bg-red-600 px-1 rounded-sm" type="submit">
+            Generar Error
+          </button>
         </form>
       </div>{" "}
     </div>
